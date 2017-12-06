@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Test d\'amour</string>
+    <string name="question_3">Rigolez-vous souvent ensemble ?</string>
+    <string name="question_4">A quand remonte votre dernière dispute ?</string>
+    <string name="reponse_1_2">Entre 1 an et 5 ans.</string>
+    <string name="reponse_1_3">Plus de 5 ans.</string>
+    <string name="reponse_2_1">Moins de 1 jour par semaine.</string>
+    <string name="reponse_2_2">Entre 2 et 3 jours par semaine.</string>
+    <string name="reponse_2_3">Plus de 3 jours par semaine.</string>
+    <string name="reponse_3_1">Jamais.</string>
+    <string name="reponse_3_2">Quelquefois.</string>
+    <string name="reponse_3_3">Souvent.</string>
+    <string name="reponse_4_1">Dans la semaine.</string>
+    <string name="reponse_4_2">Plus d\'une semaine.</string>
+    <string name="reponse_4_3">Plus d\'un mois.</string>
+    <string name="reponse_5_1">Moins d\'une fois par mois.</string>
+    <string name="reponse_5_2">Moins d\'une fois par semaine.</string>
+    <string name="reponse_5_3">"Plus de 2 à 3 fois par semaine. "</string>
+    <string name="txt_result">Résultat</string>
+    <string name="again">Recommencer</string>
+    <string name="rate_us">Votez</string>
+    <string name="question_1">Depuis combien de temps êtes vous ensemble ?</string>
+    <string name="question_5">Quelles est la fréquence de vos rapports sexuels ?</string>
+    <string name="reponse_1_1">Moins de 1 an.</string>
+    <string name="hint_name1">Votre prénom</string>
+    <string name="btn_test">Tester</string>
+    <string name="hint_name2">Son prénom</string>
+    <string name="msg_err_champ">Veuillez remplir tous les champs.</string>
+    <string name="question_2">Combien de fois vous voyez vous par semaine ?</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

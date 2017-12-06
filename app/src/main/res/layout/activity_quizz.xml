@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.softcaze.nicolas.testdamour.QuizzActivity">
+
+    <TextView
+        android:id="@+id/numQuestion"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:text="1/5"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rounded_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_below="@+id/numQuestion"
+        android:background="@drawable/rounded_txtarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/question_1"
+        />
+
+    <TextView
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_txtarea"
+        android:text="@string/reponse_1_1"
+        android:padding="10dp"
+        android:layout_below="@id/question"/>
+    <TextView
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_txtarea"
+        android:text="@string/reponse_1_2"
+        android:padding="10dp"
+        android:layout_below="@id/answer1"/>
+    <TextView
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/rounded_txtarea"
+        android:text="@string/reponse_1_3"
+        android:padding="10dp"
+        android:layout_below="@id/answer2"/>
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9468199307439621/7634345074" />
+
+</RelativeLayout>
